@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: white;
+
+}
+
+:root{
+    --ff-sora: "Sora", sans-serif;
+    --ff-roboto-mono: "Roboto Mono", sans-serif;
+    --ff-roboto-flex: "Roboto Flex", sans-serif;
+}
+
+body {
+    /* background-image: linear-gradient(180deg, #000, rgba(0, 0, 0, 60%)); */
+    background-color: #000;
+    background-repeat: no-repeat;
+}
+
+.margin-120 {
+    margin-inline: 7.5rem;
+}

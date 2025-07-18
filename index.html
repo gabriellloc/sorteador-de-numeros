@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de números - Numbers</title>
+
+    <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body>
+    <header class="margin-120">
+        <img src="assets/logo.svg" alt="logo">
+        <h2>Numbers</h2>
+    </header>
+
+    <main class="margin-120">
+        <section class="text-content">
+            <section class="header-main">
+                <span>Online - Gratuito</span>
+                <h1>Sorteador de Números</h1>
+            </section>
+
+            <section class="about">
+                <div>
+                    <img src="assets/Frame.svg">
+                    <div>
+                        <h3>Como funciona o sorteador de números?</h3>
+                        <p>O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/Frame.svg">
+                    <div>
+                        <h3>Posso escolher o intervalo dos números?</h3>
+                        <p>Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <form>
+            <div>
+                <h2>Quero sortear:</h2>
+                <p>defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!</p>
+            </div>
+
+            <section>
+                <div>
+                    <label>Números</label>
+                    <input id="numbers" type="text" placeholder="2" required>
+                </div>
+
+                <div>
+                    <label>De</label>
+                    <input id="fromNumber" type="text" placeholder="1" required>
+                </div>
+
+                <div>
+                    <label>Até</label>
+                    <input id="toNumber" type="text" placeholder="100" required>
+                </div>
+
+            </section>
+            <section>
+                <input type="checkbox" id="notRepeat" hidden>
+                <label for="notRepeat" id="check-label"><div id="ani"></div></label>
+                <p>Não repetir número</p>
+            </section>
+            <button>Sortear</button>
+        </form>
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
